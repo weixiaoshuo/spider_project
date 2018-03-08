@@ -4,6 +4,16 @@ from tornado.web import RequestHandler
 class BaseHandler(RequestHandler):
     """handler基类"""
 
+    @property
+    def db(self):
+        return self.application.db
+
+    # 这里的装饰器是个啥意思呢？
+
+    @property
+    def mongodb(self):
+        return self.application.mongodb
+
     def prepare(self):
         pass
 
