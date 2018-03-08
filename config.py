@@ -21,7 +21,7 @@ mysql_options= dict(
 
 # mongodb
 mongodb_options = dict(
-    host='localhost',
+    host='127.0.0.1',
     port=27017
 )
 
