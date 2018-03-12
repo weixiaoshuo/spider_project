@@ -1,5 +1,5 @@
 from hanlders import PassPort
 
 handlers = [
-    (r'/', PassPort.IndexHandler)
+    (r'/', PassPort.IndexHandler),
 ]
