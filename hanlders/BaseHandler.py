@@ -1,4 +1,4 @@
-# coding=utf-8
+# coding:utf-8
 from tornado.web import RequestHandler
 
 
@@ -13,7 +13,7 @@ class BaseHandler(RequestHandler):
 
     @property
     def mongodb(self):
-        return self.application.mongodb
+        return self.application.home_test
 
     def prepare(self):
         pass

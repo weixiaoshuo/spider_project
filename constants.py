@@ -1,0 +1,3 @@
+# coding:utf-8
+
+IMGAE_CODE_EXPIRE_SECONDS = 120;

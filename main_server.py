@@ -18,6 +18,7 @@ class Application(tornado.web.Application):
         self.db = torndb.Connection(**mysql_options)
         self.client = MongoClient(**mongodb_options)
         self.mongodb = self.client.ihome
+        self.home_test = self.mongodb.home_test
 
 def main():
     options.logging = log_lever
